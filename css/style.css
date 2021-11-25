@@ -1,0 +1,30 @@
+/* THE NAVBAR STYLE */
+.navbar {
+  font-size: smaller;
+  font-weight: normal;
+  text-align: center;
+  /*padding-left: 15px;*/
+  text-transform: uppercase;
+  background-color: white;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.411);
+}
+
+.navbar-toggler,
+.navbar-nav {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .navbar-toggler,
+  .navbar-nav {
+    display: unset;
+  }
+}
+
+header {
+  margin-top: 150px;
+}
+
+.box {
+  background-color: gray;
+}
